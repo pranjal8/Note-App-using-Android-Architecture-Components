@@ -48,7 +48,7 @@ class HomeFragment : Fragment(R.layout.fragment_home), SearchView.OnQueryTextLis
 
         binding.recyclerView.apply {
             layoutManager = StaggeredGridLayoutManager(
-                3,
+                2,
                 StaggeredGridLayoutManager.VERTICAL
             )
             setHasFixedSize(true)
